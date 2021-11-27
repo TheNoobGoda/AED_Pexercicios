@@ -276,9 +276,9 @@ TEST(test_2, FindMin){
         tend = getticks(); // end ticks counting
         elapsedTime[i] = getElapsed(tend,tstart);
         // clearing stack
-        for (int z = 1; z <= x_el[i]; z++) {
+        /*for (int z = 1; z <= x_el[i]; z++) {
             s1.pop();
-        }
+        }*/
     }
     // Verify if constant time
     // NOTE: parameter 10 means that values in the range [-10, 10] are considered constant
