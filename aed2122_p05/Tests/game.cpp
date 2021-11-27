@@ -46,22 +46,44 @@ void Game::setKids(const list<Kid>& l1) {
 
 // TODO
 Kid Game::loseGame(string phrase) {
-    list<Kid>::iterator it = kids.begin();
-    int num = numberOfWords(phrase);
-    while (kids.size() > 1) {
-        int jumps= num;
-        while(kids.size()<jumps){
-            jumps-=kids.size();
-        }
-        for (int i = 0; i < jumps; i++) {
-            it++;
-            if(i > kids.size()-1){
-                it=kids.begin();
-            }
-        }
-        kids.erase(it);
+    vector<Kid> aux;
+    int n = numberOfWords(phrase);
+    int n2 = 0;
+    for (auto it : kids){
+        aux.push_back(it);
     }
-    return kids.front();
+    while (aux.size()>1){
+        if (n2>=aux.size()){
+            n2 = 0;
+        }
+        if (n>= aux.size()){
+            int n3 = n%aux.size();
+            if (n3 == 0){
+                n2--;
+                if(n2 == -1){
+                    n2=aux.size()-1;
+                }
+            }
+            for (int i = 1; i<n3;i++){
+
+                n2 ++;
+                if (n2>=aux.size()){
+                    n2 = 0;
+                }
+            }
+            aux.erase(aux.begin()+n2);
+        }else{
+            for (int i = 1; i<n;i++){
+                n2 ++;
+                if (n2>=aux.size()){
+                    n2 = 0;
+                }
+            }
+            aux.erase(aux.begin()+n2);
+        }
+
+    }
+    return aux.front();
 
 }
 

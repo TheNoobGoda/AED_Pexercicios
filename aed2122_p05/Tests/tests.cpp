@@ -56,7 +56,7 @@ TEST(test_1, a_addKid){
     }
 }
 
-/*
+
 TEST(test_1, b_loseGame){
     cout<<endl<<"Testing 'loseGame'"<<endl;
     Kid c1("Rui",6,'m');
@@ -96,7 +96,7 @@ TEST(test_1, b_loseGame){
     cx = game3.loseGame(s);
     EXPECT_EQ("Ana", cx.getName());
 }
- */
+
 
 TEST(test_1, c_rearrange){
     cout<<endl<<"Testing 'rearrange'"<<endl;
