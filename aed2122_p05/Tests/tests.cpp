@@ -137,7 +137,7 @@ TEST(test_1, c_rearrange){
     }
 }
 
-/*
+
 TEST(test_1, d_removeOlder){
     cout<<endl<<"Testing 'removeOlder'"<<endl;
     Kid c1("Rui",6,'m');
@@ -283,4 +283,4 @@ TEST(test_2, FindMin){
     // Verify if constant time
     // NOTE: parameter 10 means that values in the range [-10, 10] are considered constant
     EXPECT_EQ(true, isConstant(elapsedTime, size, 10));
-}*/
+}
