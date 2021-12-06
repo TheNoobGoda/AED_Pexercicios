@@ -27,7 +27,7 @@ TEST(test_1, a_createDictionary) {
         EXPECT_EQ("gato", it.retrieve().getWord());
     }
 }
-/*
+
 TEST(test_1, b_printDictionary) {
     cout<<endl<<"Testing 'printDictionary'"<<endl;
     ifstream f;
@@ -42,7 +42,7 @@ TEST(test_1, b_printDictionary) {
     f.close();
     d1.print();
 }
-
+/*
 TEST(test_1, c_consultDictionary) {
     cout<<endl<<"Testing 'consultDictionary'"<<endl;
     ifstream fich;

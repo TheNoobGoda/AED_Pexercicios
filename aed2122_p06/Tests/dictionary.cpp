@@ -31,19 +31,12 @@ BST<WordMean> Dictionary::getWords() const {
 
 //TODO
 void Dictionary::readFile(ifstream &f) {
-    f.open("dic.txt");
-    while (f.is_open()){
-        string word1;
-        string mean1;
-        getline(f,word1);
-        getline(f,mean1);
-
-        if (word1 == ""){
-            break;
-        }
-        words.insert(WordMean(word1,mean1));
-
-
+    while (!f.eof()){
+        string word;
+        string mean;
+        getline(f, word);
+        getline(f, mean);
+        words.insert(WordMean (word, mean));
     }
 }
 
@@ -59,6 +52,7 @@ bool Dictionary::update(string word1, string mean1) {
 
 //TODO
 void Dictionary::print() const {
+    //words.printTree();
 }
 
 bool WordMean::operator<(const WordMean &wordMean)const {

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\david\Desktop\FEUP\aed\aed2122_p06
+CMAKE_SOURCE_DIR = C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aed2122_p06.dir/depend.make
@@ -68,58 +68,58 @@ include CMakeFiles/aed2122_p06.dir/flags.make
 CMakeFiles/aed2122_p06.dir/main.cpp.obj: CMakeFiles/aed2122_p06.dir/flags.make
 CMakeFiles/aed2122_p06.dir/main.cpp.obj: CMakeFiles/aed2122_p06.dir/includes_CXX.rsp
 CMakeFiles/aed2122_p06.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aed2122_p06.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\main.cpp.obj -c C:\Users\david\Desktop\FEUP\aed\aed2122_p06\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aed2122_p06.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\main.cpp.obj -c C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\main.cpp
 
 CMakeFiles/aed2122_p06.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aed2122_p06.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\FEUP\aed\aed2122_p06\main.cpp > CMakeFiles\aed2122_p06.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\main.cpp > CMakeFiles\aed2122_p06.dir\main.cpp.i
 
 CMakeFiles/aed2122_p06.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aed2122_p06.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\FEUP\aed\aed2122_p06\main.cpp -o CMakeFiles\aed2122_p06.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\main.cpp -o CMakeFiles\aed2122_p06.dir\main.cpp.s
 
 CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.obj: CMakeFiles/aed2122_p06.dir/flags.make
 CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.obj: CMakeFiles/aed2122_p06.dir/includes_CXX.rsp
 CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.obj: ../Tests/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\Tests\tests.cpp.obj -c C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\Tests\tests.cpp.obj -c C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\tests.cpp
 
 CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\tests.cpp > CMakeFiles\aed2122_p06.dir\Tests\tests.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\tests.cpp > CMakeFiles\aed2122_p06.dir\Tests\tests.cpp.i
 
 CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aed2122_p06.dir/Tests/tests.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\tests.cpp -o CMakeFiles\aed2122_p06.dir\Tests\tests.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\tests.cpp -o CMakeFiles\aed2122_p06.dir\Tests\tests.cpp.s
 
 CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.obj: CMakeFiles/aed2122_p06.dir/flags.make
 CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.obj: CMakeFiles/aed2122_p06.dir/includes_CXX.rsp
 CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.obj: ../Tests/dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\Tests\dictionary.cpp.obj -c C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\Tests\dictionary.cpp.obj -c C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\dictionary.cpp
 
 CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\dictionary.cpp > CMakeFiles\aed2122_p06.dir\Tests\dictionary.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\dictionary.cpp > CMakeFiles\aed2122_p06.dir\Tests\dictionary.cpp.i
 
 CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aed2122_p06.dir/Tests/dictionary.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\dictionary.cpp -o CMakeFiles\aed2122_p06.dir\Tests\dictionary.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\dictionary.cpp -o CMakeFiles\aed2122_p06.dir\Tests\dictionary.cpp.s
 
 CMakeFiles/aed2122_p06.dir/Tests/game.cpp.obj: CMakeFiles/aed2122_p06.dir/flags.make
 CMakeFiles/aed2122_p06.dir/Tests/game.cpp.obj: CMakeFiles/aed2122_p06.dir/includes_CXX.rsp
 CMakeFiles/aed2122_p06.dir/Tests/game.cpp.obj: ../Tests/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aed2122_p06.dir/Tests/game.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\Tests\game.cpp.obj -c C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/aed2122_p06.dir/Tests/game.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\aed2122_p06.dir\Tests\game.cpp.obj -c C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\game.cpp
 
 CMakeFiles/aed2122_p06.dir/Tests/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aed2122_p06.dir/Tests/game.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\game.cpp > CMakeFiles\aed2122_p06.dir\Tests\game.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\game.cpp > CMakeFiles\aed2122_p06.dir\Tests\game.cpp.i
 
 CMakeFiles/aed2122_p06.dir/Tests/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aed2122_p06.dir/Tests/game.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\FEUP\aed\aed2122_p06\Tests\game.cpp -o CMakeFiles\aed2122_p06.dir\Tests\game.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\Tests\game.cpp -o CMakeFiles\aed2122_p06.dir\Tests\game.cpp.s
 
 # Object files for target aed2122_p06
 aed2122_p06_OBJECTS = \
@@ -142,7 +142,7 @@ aed2122_p06_EXTERNAL_OBJECTS =
 ../Tests/aed2122_p06.exe: CMakeFiles/aed2122_p06.dir/linklibs.rsp
 ../Tests/aed2122_p06.exe: CMakeFiles/aed2122_p06.dir/objects1.rsp
 ../Tests/aed2122_p06.exe: CMakeFiles/aed2122_p06.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\Tests\aed2122_p06.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ..\Tests\aed2122_p06.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\aed2122_p06.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/aed2122_p06.dir/clean:
 .PHONY : CMakeFiles/aed2122_p06.dir/clean
 
 CMakeFiles/aed2122_p06.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\david\Desktop\FEUP\aed\aed2122_p06 C:\Users\david\Desktop\FEUP\aed\aed2122_p06 C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug C:\Users\david\Desktop\FEUP\aed\aed2122_p06\cmake-build-debug\CMakeFiles\aed2122_p06.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06 C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06 C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug C:\Users\david\Desktop\faculdade\AED\AED_Pexercicios\aed2122_p06\cmake-build-debug\CMakeFiles\aed2122_p06.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aed2122_p06.dir/depend
 
