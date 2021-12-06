@@ -528,7 +528,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/cycle.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/cycle.h
 sys/time.h
 -
 intrinsics.h
@@ -564,9 +564,19 @@ unistd.h
 fcntl.h
 -
 
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/game.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/game.cpp
+game.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/game.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/game.h
 kid.h
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/kid.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/kid.h
 list
 -
 queue
@@ -574,39 +584,49 @@ queue
 string
 -
 
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/kid.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/kid.cpp
+kid.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/kid.h
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/kid.h
 string
 -
 sstream
 -
 
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/performance.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/performance.h
 iostream
 -
 cstdlib
 -
 cycle.h
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/cycle.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/cycle.h
 
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/stackExt.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/stackExt.h
 iostream
 -
 stack
 -
 
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/tests.cpp
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/tests.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
 kid.h
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/kid.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/kid.h
 game.h
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/game.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/game.h
 stackExt.h
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/stackExt.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/stackExt.h
 string
 -
 performance.h
-C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p05/Tests/performance.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/Tests/performance.h
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/main.cpp
+gtest/gtest.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/gtest/gtest.h
+gmock/gmock.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p05/gmock/gmock.h
 

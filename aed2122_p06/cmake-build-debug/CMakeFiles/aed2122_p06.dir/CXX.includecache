@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p06/Tests/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p06/Tests/dictionary.cpp
+iostream
+-
+string
+-
+fstream
+-
+dictionary.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p06/Tests/dictionary.h
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p06/Tests/dictionary.h
+string
+-
+fstream
+-
+bst.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p06/Tests/bst.h
+
