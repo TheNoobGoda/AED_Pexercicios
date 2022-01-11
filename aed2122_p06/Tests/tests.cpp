@@ -42,7 +42,7 @@ TEST(test_1, b_printDictionary) {
     f.close();
     d1.print();
 }
-/*
+
 TEST(test_1, c_consultDictionary) {
     cout<<endl<<"Testing 'consultDictionary'"<<endl;
     ifstream fich;
@@ -65,7 +65,7 @@ TEST(test_1, c_consultDictionary) {
     EXPECT_EQ("macaco", next.getWord());
     EXPECT_EQ("mamifero da ordem dos primatas", next.getMeaning());
 }
-
+/*
 TEST(test_1, d_updateDictionary) {
     cout<<endl<<"Testing 'updateDictionary'"<<endl;
     ifstream f;
