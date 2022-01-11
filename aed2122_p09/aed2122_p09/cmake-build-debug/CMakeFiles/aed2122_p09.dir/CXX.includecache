@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p09/aed2122_p09/Tests/graph.cpp
+graph.h
+C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p09/aed2122_p09/Tests/graph.h
+
+C:/Users/david/Desktop/faculdade/AED/AED_Pexercicios/aed2122_p09/aed2122_p09/Tests/graph.h
+vector
+-
+list
+-
+queue
+-
+iostream
+-
+
