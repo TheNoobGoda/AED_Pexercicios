@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p07/Tests/bst.h
+iostream
+-
+stack
+-
+queue
+-
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p07/Tests/funWithBSTs.cpp
+set
+-
+funWithBSTs.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p07/Tests/funWithBSTs.h
+bst.h
+C:/Users/david/Desktop/FEUP/aed/aed2122_p07/Tests/bst.h
+
+C:/Users/david/Desktop/FEUP/aed/aed2122_p07/Tests/funWithBSTs.h
+vector
+-
+string
+-
+

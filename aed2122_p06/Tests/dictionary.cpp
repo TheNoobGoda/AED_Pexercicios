@@ -42,7 +42,16 @@ void Dictionary::readFile(ifstream &f) {
 
 //TODO
 string Dictionary::consult(string word1, WordMean& previous, WordMean& next) const {
-    return "";
+    for (auto it{words.begin()}, end{words.end()}; it != end; previous = *(it++))
+        if (word1 <= (*it).getWord()) {
+            next = *(it);
+            break;
+        }
+
+    if (word1 == next.getWord())
+        return next.getMeaning();
+
+    return "word not found";
 }
 
 //TODO
